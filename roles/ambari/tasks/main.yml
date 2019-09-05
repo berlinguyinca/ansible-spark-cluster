@@ -1,9 +1,0 @@
-- import_tasks: uninstall.yml
-- import_tasks: uninstall-kdc.yml
-- import_tasks: install.yml
-- import_tasks: install-kdc.yml
-  when: (security.enable_kerberos == true)
-- import_tasks: deploy.yml
-
-#- import_tasks: patch.yml
-#  when: (security.enable_kerberos == true)
